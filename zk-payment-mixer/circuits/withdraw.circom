@@ -1,6 +1,6 @@
 pragma circom 2.1.4;
 
-include "node_modules/circomlib/circuits/poseidon.circom";
+include "node_modules/circomlib/circuits/poseidon.circom"
 include "node_modules/circomlib/circuits/merkleTree.circom";
 
 // Withdraw circuit: proves knowledge of (secret, nullifier) such that
