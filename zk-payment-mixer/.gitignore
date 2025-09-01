@@ -1,0 +1,21 @@
+node_modules/
+artifacts/
+cache/
+build/
+.typechain/
+.env*
+.DS_Store
+logs
+*.log
+coverage/
+
+# circom/snarkjs outputs
+*.r1cs
+*.wasm
+*.sym
+*.zkey
+*.ptau
+build/
+
+# frontend
+frontend/build/

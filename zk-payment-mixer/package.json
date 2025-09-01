@@ -1,0 +1,32 @@
+{
+  "name": "zk-payment-mixer",
+  "version": "1.0.0",
+  "description": "Privacy-focused ETH mixer using zk-SNARKs",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "compile-circuit": "node scripts/compile-circuit.js",
+    "generate-proof": "node scripts/generate-proof.js",
+    "frontend": "cd frontend && npm start",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["blockchain", "privacy", "zk-snarks", "ethereum", "mixer"],
+  "author": "ZK Payment Mixer Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "circom": "^2.1.6",
+    "snarkjs": "^0.7.0",
+    "circomlibjs": "^0.1.7",
+    "ffjavascript": "^0.2.29"
+  }
+}
