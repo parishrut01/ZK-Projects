@@ -1,6 +1,6 @@
 # ZK Payment Mixer
 
-Privacy-focused ETH mixer using zk-SNARKs (Groth16). Fixed 0.1 ETH deposits, anonymous withdrawals via Merkle inclusion + nullifier.
+Privacy-focused ETH mixer using zk-SNARKs (Groth16). Fixed 0.1 ETH deposits, anonymous withdrawals via Merkle inclusion + nullifier
 
 - Circuits: `circuits/withdraw.circom`
 - Contracts: `contracts/Mixer.sol`, `contracts/Verifier.sol`
