@@ -1,5 +1,5 @@
 {
-  name": "zk-kyc-age-verification",
+  "name": "zk-kyc-age-verification",
   "version": "1.0.0",
   "description": "Zero-knowledge proof system for age verification without revealing actual age",
   "main": "index.js",
