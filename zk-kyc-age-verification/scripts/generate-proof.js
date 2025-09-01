@@ -1,4 +1,4 @@
-onst fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const snarkjs = require('snarkjs');
 const circomlibjs = require('circomlibjs');
