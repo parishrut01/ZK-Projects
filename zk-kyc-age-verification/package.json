@@ -1,0 +1,37 @@
+{
+  "name": "zk-kyc-age-verification",
+  "version": "1.0.0",
+  "description": "Zero-knowledge proof system for age verification without revealing actual age",
+  "main": "index.js",
+  "scripts": {
+    "compile-circuit": "node scripts/compile-circuit.js",
+    "generate-proof": "node scripts/generate-proof.js",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "keywords": ["zk", "zero-knowledge", "kyc", "age-verification", "circom", "snarkjs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "hardhat": "^2.19.2",
+    "snarkjs": "^0.7.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-verify": "^2.0.1",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.10",
+    "typechain": "^8.3.2"
+  }
+}
