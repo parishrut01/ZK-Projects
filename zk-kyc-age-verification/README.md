@@ -436,15 +436,6 @@ zk-kyc-age-verification/
 - Maintain >90% code coverage
 - Use descriptive test names and comments
 
-### Pull Request Process
-
-1. Fork the repository
-2. Create a feature branch
-3. Write tests for your changes
-4. Ensure all tests pass
-5. Update documentation
-6. Submit pull request with clear description
-
 ## 📚 Additional Resources
 
 ### ZK-SNARK Resources
@@ -466,10 +457,8 @@ zk-kyc-age-verification/
 
 For questions, issues, or contributions:
 
-- 📧 Email: [your-email@example.com]
-- 💬 Discord: [Your Discord Server]
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
-- 📖 Docs: [Documentation Site](https://your-docs-site.com)
+- Email: asp.eth.2025@gmail.com
+- X (Twitter): https://x.com/cyberflux0
 
 ## 📄 License
 
@@ -485,4 +474,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⚠️ Disclaimer**: This is a demonstration project. For production use, conduct thorough security audits, use proper key management, and consider regulatory requirements in your jurisdiction.
