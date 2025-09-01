@@ -1,4 +1,4 @@
-onst { expect } = require('chai');
+const { expect } = require('chai');
 const { ethers } = require('hardhat');
 const fs = require('fs');
 const path = require('path');
