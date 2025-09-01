@@ -1,5 +1,5 @@
 {
-  "ame": "zk-payment-mixer",
+  "name": "zk-payment-mixer",
   "version": "1.0.0",
   "description": "Privacy-focused ETH mixer using zk-SNARKs",
   "main": "index.js",
