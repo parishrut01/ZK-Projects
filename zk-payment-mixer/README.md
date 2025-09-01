@@ -25,4 +25,4 @@ Set `REACT_APP_MIXER_ADDRESS` then run frontend:
 cd frontend && npm install && npm start
 ```
 
-Use at your own risk. Demo verifier placeholder until snarkjs exports Solidity verifier.
+
