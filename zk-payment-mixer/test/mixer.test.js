@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+onst { expect } = require('chai');
 const { ethers } = require('hardhat');
 
 describe('Mixer', function () {
